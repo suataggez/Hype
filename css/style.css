@@ -1,0 +1,15 @@
+/* uploader css start ! */
+
+#uploader_main { width:100% ;   font-size: 20px ;  font-family: sans-serif;}
+#uploader_header { width:96% ; float: left; margin: 1% ;}
+#uploader_header .search { border: 2px solid gray ;}
+#uploader_content { width: 100% ; float: left;  }
+#uploader_content table td { border: 1px solid #B8B8B8 ; padding:5px;}
+#uploader_content table tr:hover { background: #F5F5F5 ; }
+#uploader_content table input { margin : 1px; }
+
+/* uploader css end ! */
+
+/* Login css start ! */
+
+#isim_input { margin: auto ; width: 400px ; margin-top: 20% ;}
