@@ -1,6 +1,6 @@
 /* uploader css start ! */
 
-#uploader_main { width:100% ;   font-size: 20px ;  font-family: sans-serif;}
+#uploader_main { width:100% ;   font-size: 20px ; }
 #uploader_header { width:96% ; float: left; margin: 1% ;}
 #uploader_header .search { border: 2px solid gray ;}
 #uploader_content { width: 100% ; float: left;  }
@@ -13,3 +13,9 @@
 /* Login css start ! */
 
 #isim_input { margin: auto ; width: 400px ; margin-top: 20% ;}
+#isim_input input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: white !important ;
+}
+
+/* login css end */
