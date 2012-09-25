@@ -1114,12 +1114,12 @@ input[type="checkbox"]:focus {
 
 input:-moz-placeholder,
 textarea:-moz-placeholder {
-  color: white;
+  color: gray;
 }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  color: white;
+  color: gray;
 }
 
 input::-webkit-input-placeholder,

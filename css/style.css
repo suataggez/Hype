@@ -15,7 +15,7 @@
 #isim_input { margin: auto ; width: 400px ; margin-top: 20% ;}
 #isim_input input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: white !important ;
+  color: #55BFFA !important ;
 }
 
 /* login css end */
