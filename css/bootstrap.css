@@ -85,7 +85,7 @@ select,
 textarea {
   margin: 0;
   font-size: 100%;
-  vertical-align: inline;
+  vertical-align: middle;
 }
 
 button,
@@ -966,12 +966,11 @@ input[type="tel"],
 input[type="color"],
 .uneditable-input {
   display: inline-block;
-  width: 400px;
-  height: 50px;
+  height: 20px;
   padding: 4px 6px;
   margin-bottom: 9px;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 14px;
+  line-height: 20px;
   color: #555555;
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
@@ -1114,17 +1113,17 @@ input[type="checkbox"]:focus {
 
 input:-moz-placeholder,
 textarea:-moz-placeholder {
-  color: gray;
+  color: #999999;
 }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  color: gray;
+  color: #999999;
 }
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: gray;
+  color: #999999;
 }
 
 .radio,
@@ -1824,7 +1823,6 @@ legend + .control-group {
 }
 
 table {
-  font-size: 40px;
   max-width: 100%;
   background-color: transparent;
   border-collapse: collapse;
