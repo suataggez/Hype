@@ -4,31 +4,37 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
+	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<title>Hype</title>
 </head>
 <body>
-
-
-	<div id="main_site">
-		<div id="main_header">
-			<input type="search" placeholder="Ara..." >		
-		</div>
+	<div id="main_site" >
 		<div id="main_menu">
-			<ul>
-				<a href="#"><li>Anasayfa</li></a>
-				<a href="#"><li>Duyurular</li></a>
-				<a href="#"><li>Projeler</li></a>
-				<a href="#"><li>Anket</li></a>
-				<a href="#"><li>Forum</li></a>
-			</ul>
+			<ul class="nav nav-tabs">
+              <li class="active"><a href="#">Anasayfa</a></li>
+              <li><a href="#">Uploader</a></li>
+              <li><a href="#">Duyurular</a></li>
+              <li><a href="#">Anketler</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Forum <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li>
+            </ul>
 		</div>
 		<div id="main_content">
-			<div id="main_baslik"></div>
-			<div id="main_comment"></div>
-			<div id="main_right"></div>
+			<div id="content_left">
+			</div>
+			<div id="content_right">
+			</div>
 		</div>
 	</div>
-	<footer>
-	</footer>
+
 </body>
 </html>
