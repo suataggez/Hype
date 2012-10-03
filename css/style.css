@@ -3,10 +3,11 @@ body { background : #FCFCFC !important;}
 .comments { width:96%; float:left; padding:5px; margin-bottom:10px; margin-left:1%;}
 .well-bg { background: #FCFCFC !important; border-color : white !important; }
 
+#comments {margin-left: 30px ;}
 .comments_time { margin-bottom:0px;padding:0px;font-size:10px;color:#D6C2C2;font-weight:normal;}
 #ideas { margin-left:1%; width: 98% ; margin-top: 2%;}
 #survey { margin-left:1% ; width:98%;}
 
 .h4 {font-size:14px;margin:0px;}
-#index_content { width: 60%; float: left; }
-#chat { width: 35%; border : 1px solid black ; float: left;}
+#index_content { width: 900px; float: left; }
+#chat { width:400px; border : 1px solid black ; float: right; height: 600px; margin-right: 30px; margin-bottom: 20px;}
