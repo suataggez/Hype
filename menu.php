@@ -21,7 +21,7 @@
                       <li><a href="#"></a></li>
                       <li class="divider-vertical"></li>
                       <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b></a>
+                        <a href="#" class="brand" data-toggle="dropdown">Etkinlikler<b class="caret"></b></a>
                         <ul class="dropdown-menu">
                           <li><a href="#"></a></li>
                           <li><a href="#"></a></li>
