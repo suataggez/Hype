@@ -12,6 +12,7 @@
                       <li class=""><a href="index.php">Anasayfa</a></li>
 
                       <li<??>><a href="uploader.php">Dosyalar</a></li>
+                      <li><a href="bookmarks.php">Bookmarks</a></li>
                       <li><a href="forum.php">Forum</a></li>
                         </ul>
                     <form class="navbar-search pull-left " action="">
