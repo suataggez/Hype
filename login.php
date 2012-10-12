@@ -8,7 +8,15 @@
 </head>
 <body>
 	<div id="login_site">
-			<input class="input-xlarge" type="text" placeholder="isminiz?" style="height:30px;">
+		<form action="index.php">
+			<input  class="input-xlarge" type="text" placeholder="isminiz?" style="height:30px;">
+		</form>
+		<?
+		mysql_connect("localhost","suat","baba");
+		mysql_select_db("hype");
+		mysql_
+
+		?>
 	</div>
 </body>
 </html>
